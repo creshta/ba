@@ -29,6 +29,12 @@
   .prize-text .prize-label { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: rgba(255,215,0,0.65); margin-bottom: 2px; }
   .prize-text .prize-amount { font-family: 'Fredoka One', cursive; font-size: 22px; color: var(--gold); line-height: 1.1; }
   .prize-text .prize-sub { font-size: 12px; color: rgba(255,215,0,0.55); margin-top: 2px; }
+  .tourney-banner { background: linear-gradient(135deg, #1a0f2e 0%, #14091f 100%); border: 1px solid rgba(167,139,250,0.35); border-radius: var(--radius); padding: 14px 20px; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 14px; }
+  .tourney-icon { font-size: 32px; flex-shrink: 0; }
+  .tourney-text { flex: 1; }
+  .tourney-text .tourney-label { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: rgba(167,139,250,0.75); margin-bottom: 2px; }
+  .tourney-text .tourney-amount { font-family: 'Fredoka One', cursive; font-size: 19px; color: #c4b5fd; line-height: 1.25; }
+  .tourney-text .tourney-sub { font-size: 12px; color: rgba(167,139,250,0.6); margin-top: 2px; }
   .controls { display: flex; gap: 8px; margin-bottom: 1.25rem; flex-wrap: wrap; }
   .controls input, .controls select { flex: 1; min-width: 130px; background: var(--surface); border: 1px solid var(--border); color: var(--text); font-family: 'Nunito', sans-serif; font-size: 13px; padding: 9px 14px; border-radius: var(--radius-sm); outline: none; transition: border-color 0.2s; }
   .controls input:focus, .controls select:focus { border-color: rgba(255,107,107,0.5); }
@@ -68,6 +74,15 @@
       <div class="prize-label">BBR Ranked — 1st Place, 2nd Place, 3rd Place</div>
       <div class="prize-amount">$50 for First, $30 for Second, $20 for Third</div>
       <div class="prize-sub">Top players of the leaderboard at the end of the ranked rotation wins!</div>
+    </div>
+  </div>
+
+  <div class="tourney-banner">
+    <div class="tourney-icon">🎮</div>
+    <div class="tourney-text">
+      <div class="tourney-label">Bonus Bracket</div>
+      <div class="tourney-amount">Top 10 Make the Cut</div>
+      <div class="tourney-sub">Top 10 on the leaderboard will be entered into a special bracket button basher tournament at the end of the rotation!</div>
     </div>
   </div>
 
